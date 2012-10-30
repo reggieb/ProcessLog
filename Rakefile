@@ -1,11 +1,8 @@
-
 require 'rubygems'
 require 'rake'
 require 'rake/clean'
 require 'rdoc/task'
 require 'rake/testtask'
-
-
 
 Rake::RDocTask.new do |rdoc|
   files =['README', 'LICENSE', 'lib/**/*.rb']
